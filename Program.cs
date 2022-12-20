@@ -2,9 +2,10 @@
     Console.WriteLine("Введите сколько чисел вы будете вводить");
     int m = Convert.ToInt32(Console.ReadLine());
     int count = 0;
+    int k;
     while(m != 0){
         Console.WriteLine("Введите число");
-        int k = Convert.ToInt32(Console.ReadLine());
+        k = Convert.ToInt32(Console.ReadLine());
         if(k > 0){
             count++;
         }
